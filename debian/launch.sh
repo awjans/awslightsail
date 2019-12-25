@@ -3,8 +3,8 @@
 # Configuration Script in the GIT Repository to finish setting up the machine.
 
 # Set the necessary environment variables
-export GITUSER="awjans"
-export GITREPO="jans"
+export GITUSER="myusername"
+export GITREPO="myrepository"
 
 # Update Debian Repositories, Upgrade installed packages and Install Git
 apt -y update && apt -y upgrade && apt -y install git
